@@ -1,0 +1,114 @@
+/* Padrão */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+
+header{
+    background-color: red;
+    height: 100px ;
+
+}
+.navMenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.navMenu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+.navMenu ul li{
+    list-style: none;
+}
+
+.navMenu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Main */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+}
+
+.form_login{
+    background-color: rgba(255, 0, 0, 0.202);
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.inputForm{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 5px;
+
+}
+
+.inputForm label{
+    color: rgb(146, 28, 28);
+    margin: 5px;
+
+}
+
+.inputForm  input{
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn_login{
+    background-color: red;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+}
+
+
+/* Tela inicial */
+.sec1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(255, 255, 252);
+}
+
+.imgSec1{
+    width: 500px;
+    margin: 5px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+
+.btn_sec1{
+    background-color: red;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+}
